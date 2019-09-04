@@ -19,10 +19,12 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
+  modulo = num2 %= num1 
+  return modulo
   
 end
 
 def square_root(num)
-  num2 = num ** 2 
+  num2 = num.Math.sqrt 
   return num2
 end
